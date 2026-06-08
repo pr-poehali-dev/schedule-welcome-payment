@@ -377,12 +377,12 @@ function PaymentsPage() {
             <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-white/10 -translate-y-8 translate-x-8" />
             <p className="text-white/70 text-xs font-golos mb-4">VISA / MasterCard</p>
             <p className="text-white font-oswald font-bold text-xl tracking-widest mb-4">
-              4276 •••• •••• 1234
+              2204 3209 2006 8733
             </p>
             <div className="flex justify-between items-end">
               <div>
                 <p className="text-white/50 text-xs font-golos">Владелец</p>
-                <p className="text-white font-golos font-semibold text-sm">ИВАН ИВАНОВ</p>
+                <p className="text-white font-golos font-semibold text-sm">ЕЛИСЕЕНКО МАТВЕЙ</p>
               </div>
               <div className="text-right">
                 <p className="text-white/50 text-xs font-golos">Банк</p>
@@ -506,10 +506,10 @@ function ProfilePage() {
     <div className="animate-fade-in space-y-5">
       <div className="flex flex-col items-center py-6 gap-4">
         <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center text-white text-3xl font-oswald font-bold glow-purple animate-float">
-          ИИ
+          МЕ
         </div>
         <div className="text-center">
-          <h2 className="text-2xl font-oswald font-bold text-white">Иван Иванов</h2>
+          <h2 className="text-2xl font-oswald font-bold text-white">Матвей Елисеенко</h2>
           <p className="text-white/40 font-golos text-sm">+7 (999) 000-00-00</p>
         </div>
         <button className="btn-gradient px-6 py-2 rounded-xl text-white font-golos text-sm">
@@ -519,10 +519,10 @@ function ProfilePage() {
 
       <div className="space-y-2">
         {[
-          { label: "Название", value: "ИП Иванов И.И.", icon: "Building2" },
+          { label: "Название", value: "ИП Елисеенко М.", icon: "Building2" },
           { label: "Телефон", value: "+7 (999) 000-00-00", icon: "Phone" },
           { label: "Email", value: "info@example.ru", icon: "Mail" },
-          { label: "Карта для СБП", value: "4276 •••• •••• 1234", icon: "CreditCard" },
+          { label: "Карта для СБП", value: "2204 3209 2006 8733", icon: "CreditCard" },
           { label: "Банк", value: "Сбербанк", icon: "Landmark" },
         ].map((item, i) => (
           <div key={i} className="glass rounded-2xl p-4 flex items-center gap-4">
@@ -647,7 +647,7 @@ export default function App() {
               onClick={() => setPage("profile")}
               className="w-8 h-8 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center text-white text-xs font-oswald font-bold"
             >
-              И
+              М
             </button>
           </div>
         </header>
